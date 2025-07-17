@@ -1,5 +1,5 @@
 // API URLs
-export const API_BASE_URL = "http://localhost:8081/api";
+export const API_BASE_URL = process.env.REACT_APP_API_URL;
 
 // Local Storage Keys
 export const TOKEN_KEY = "token";
